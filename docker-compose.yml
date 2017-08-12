@@ -1,0 +1,24 @@
+version: '2'
+services:
+
+  squid-no-cache:
+    image: minimum2scp/squid
+    ports:
+      - "3128:3128"
+
+  squid-fat-cache:
+    build: ./container
+    ports:
+      - "22:22"
+      - "3128:3128"
+    volumes:
+      - /var/cache/squid:/var/spool/squid
+
+  squid-cache:
+    build: ./container
+    ports:
+      - "3128:3128"
+    volumes:
+      - /var/cache/squid:/var/spool/squid
+
+
