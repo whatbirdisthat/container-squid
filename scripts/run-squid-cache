@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run --name squid-cache -d -p 3128:3128 -v /var/cache/squid:/var/spool/squid local-caching-squid

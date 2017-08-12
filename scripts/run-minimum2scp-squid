@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run -d -p 3128:3128 -v /var/cache/squid:/var/spool/squid minimum2scp/squid
