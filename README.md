@@ -15,6 +15,8 @@ There are a number of squids available from docker-compose.
 2. `squid-fat-cache` has ssh open too so tinkering
 3. `squid-cache` assumes have a folder called /var/cache/squid and tries to give it full ownership to a user called "squid"
 
+> I have a ssd mounted at /var/cache and some of these scripts assume you have a folder called `/var/cache/squid` FYI
+
 ## If you don't want to use docker-compose
 
 ```bash
