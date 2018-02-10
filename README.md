@@ -1,7 +1,7 @@
 # Squids
 
 ## A composition of a number of squid-like creatures
-#### A bit of a wrapper around mimimum2scp/squid
+#### A bit of a wrapper around [mimimum2scp/squid](https://hub.docker.com/r/minimum2scp/squid/)
 ## Pretty easy to use.
 
 > Bring up a service:
@@ -42,4 +42,4 @@ There's one in the [scripts/run-squid-cache](scripts/run-squid-cache) with a nam
 
 ## Size concerns
 I personally am fine with it being 333mb (plus whatever disk you tack on).
-I use this composition for my home network and it "Just Works" thanks to minimum2scp/squid
+I use this composition for my home network and it "Just Works" thanks to [minimum2scp/squid](https://hub.docker.com/r/minimum2scp/squid/)
